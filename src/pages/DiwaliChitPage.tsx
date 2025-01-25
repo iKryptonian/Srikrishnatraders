@@ -20,7 +20,6 @@ export const DiwaliChitPage: React.FC = () => {
 
       {/* Highlights Section */}
       <div className="bg-gradient-to-r from-orange-500/70 to-blue-500/70 text-white rounded-xl p-6 md:p-16">
-      <img src="src/pages/534340_49c64.gif" alt="Left Down Image" className="absolute left-18 bottom-16 p-6 w19 h-18"/>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
