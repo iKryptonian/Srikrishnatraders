@@ -16,8 +16,8 @@ export const HomePage: React.FC = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500/80 to-blue-500/80 flex items-center justify-center p-4">
-          <img src="src/pages/WS2k.gif" alt="Left Image" className="absolute left-0 p-2 w-18 h-18"/>
-          <img src="src/pages/WS2k.gif" alt="Right Image" className="absolute right-0 p-2 w-18 h-18"/>
+          <img src="/src/pages/WS2k.gif" alt="Left Image" className="absolute left-0 p-2 w-18 h-18"/>
+          <img src="/src/pages/WS2k.gif" alt="Right Image" className="absolute right-0 p-2 w-18 h-18"/>
 
           <div className="text-center text-white space-y-4 md:space-y-6">
             <h1 className="text-3xl md:text-5xl font-bold">Welcome to Sri Krishna Traders</h1>
