@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes firework-left {
+  0% {
+    transform: translateY(120vh) translateX(0) scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(60vh) translateX(20vw) scale(0.5);
+    opacity: 0.8;
+  }
+  75% {
+    transform: translateY(30vh) translateX(30vw) scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) translateX(40vw) scale(2);
+    opacity: 0;
+    filter: blur(4px);
+  }
+}
+
+@keyframes firework-right {
+  0% {
+    transform: translateY(120vh) translateX(0) scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(60vh) translateX(-20vw) scale(0.5);
+    opacity: 0.8;
+  }
+  75% {
+    transform: translateY(30vh) translateX(-30vw) scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) translateX(-40vw) scale(2);
+    opacity: 0;
+    filter: blur(4px);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(180deg);
+  }
+}
+
+@keyframes lightning {
+  0%, 100% {
+    opacity: 0;
+    filter: brightness(1);
+  }
+  10%, 90% {
+    opacity: 0.8;
+    filter: brightness(1.5);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(2);
+  }
+}
+
+@keyframes star-rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.animate-firework-left {
+  animation: firework-left 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+.animate-firework-left-delayed {
+  animation: firework-left 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 0.7s;
+}
+
+.animate-firework-left-2 {
+  animation: firework-left 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 1.4s;
+}
+
+.animate-firework-right {
+  animation: firework-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 0.3s;
+}
+
+.animate-firework-right-delayed {
+  animation: firework-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 1s;
+}
+
+.animate-firework-right-2 {
+  animation: firework-right 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 1.7s;
+}
+
+.animate-sparkle {
+  animation: sparkle 1s ease-in-out infinite;
+}
+
+.animate-lightning {
+  animation: lightning 2s ease-in-out infinite;
+}
+
+.animate-star {
+  animation: star-rotate 4s linear infinite;
+}
+
+.animate-fire {
+  animation: fire 3s ease-in-out infinite;
+}
