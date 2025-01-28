@@ -42,7 +42,7 @@ export const UserDetailsModal: React.FC<UserDetailsModalProps> = ({
     <Modal
       isOpen={isOpen}
       onRequestClose={onClose}
-      className="max-w-2xl mx-auto mt-20 bg-white rounded-lg p-6"
+      className="max-w-2xl mx-auto mt-20 bg-white rounded-lg p-16"
       overlayClassName="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center"
       contentLabel="User Details"
     >
@@ -148,7 +148,7 @@ export const UserDetailsModal: React.FC<UserDetailsModalProps> = ({
         <div className="pt-4">
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white py-3 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+            className="w-full bg-gradient-to-r from-orange-500/80 to-blue-500/80 text-white py-3 px-4 rounded-md hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
           >
             Place Order
           </button>

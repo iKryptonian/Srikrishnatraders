@@ -24,7 +24,7 @@ export const CartPage: React.FC<CartPageProps> = ({ cart, onRemoveFromCart }) =>
       `${item.name} x ${item.quantity} = ₹${(item.discountedPrice * item.quantity).toLocaleString('en-IN')}`
     ).join('\n');
 
-    const message = `*New Order from Sparkle Fireworks*\n\n` +
+    const message = `*New Order placed at Sri Krishna Traders*\n\n` +
       `*Customer Details:*\n` +
       `Name: ${details.name}\n` +
       `Phone: ${details.phone}\n` +

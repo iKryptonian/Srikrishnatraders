@@ -49,11 +49,11 @@ export const DiwaliChitPage: React.FC = () => {
             <h4 className="text-xl md:text-2xl font-semibold mb-4">
               Scheme Details
             </h4>
-            <div className="grid grid-cols-4 gap-2 text-center font-semibold text-xs md:text-base mb-4">
-              <div className="bg-blue-800 p-2 rounded">SCHEME</div>
-              <div className="bg-blue-800 p-2 rounded">PAYMENT × MONTH</div>
-              <div className="bg-blue-800 p-2 rounded">BONUS</div>
-              <div className="bg-blue-800 p-2 rounded">TOTAL</div>
+            <div className="grid grid-cols-4 gap-2 text-center font-semibold text-xs md:text-base mb-2">
+              <div className="bg-blue-800 p-4 rounded lg:text-[14px]">SCHEME</div>
+              <div className="bg-blue-800 p-2 rounded lg:text-[14px]">PAYMENT × MONTH</div>
+              <div className="bg-blue-800 p-4 rounded lg:text-[14px]">BONUS</div>
+              <div className="bg-blue-800 p-4 rounded lg:text-[14px]">TOTAL</div>
             </div>
             <div className="space-y-2 overflow-x-auto">
               {[

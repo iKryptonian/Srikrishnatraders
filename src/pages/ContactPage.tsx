@@ -47,7 +47,18 @@ export const ContactPage: React.FC = () => {
                 <h4 className="font-semibold">Phone</h4>
                 <a href="tel:+919597273656" className="text-orange-600 hover:text-purple-600">
 
-                <span className="text-black">Pandian at</span> +91 95972 73656
+                <span className="text-black">Pandian at</span> +91 95972 73656<br />
+                                                                                                                                                                                                                                                                                               
+                
+                </a>
+              </div><br />
+              <div>
+                <h4 className="font-semibold">Phone</h4>
+                <a href="tel:+919042129123" className="text-orange-600 hover:text-purple-600">
+
+                <span className="text-black">Nivash at</span> +91 90421 29123<br />
+                                                                                                                                                                                                                                                                                               
+                
                 </a>
               </div>
             </div>

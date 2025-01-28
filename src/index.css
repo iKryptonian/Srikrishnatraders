@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+/*
+html {
+  transform: scale(0.9);
+  transform-origin: top left;
+  width: 111.11%;
+  overflow-x: hidden;
+}
+*/
 
 @keyframes firework-left {
   0% {
