@@ -12,23 +12,17 @@ function App() {
   const { cart, addToCart, removeFromCart } = useCart();
 
   return (
-    <Router>
+    <Router basename="/Srikrishnatraders/">
       <div className="min-h-screen bg-gray-100">
         <Header cart={cart} onRemoveFromCart={removeFromCart} />
-        
+
         <main className="pt-20 container mx-auto px-4">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route 
-              path="/products" 
-              element={<ProductsPage onAddToCart={addToCart} />} 
-            />
+            <Route path="/products" element={<ProductsPage onAddToCart={addToCart} />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/diwali-chit" element={<DiwaliChitPage />} />
-            <Route 
-              path="/cart" 
-              element={<CartPage cart={cart} onRemoveFromCart={removeFromCart} />} 
-            />
+            <Route path="/cart" element={<CartPage cart={cart} onRemoveFromCart={removeFromCart} />} />
           </Routes>
         </main>
       </div>
