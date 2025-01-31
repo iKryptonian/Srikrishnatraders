@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/Srikrishnatraders' // Ensure correct repo name in GitHub Pages
+  base: "" ,// Ensure correct repo name in GitHub Pages
+  plugins: [react()]
+  
 });
