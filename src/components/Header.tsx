@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({ cart }) => {
           className="flex items-center space-x-2 text-white hover:text-yellow-200"
         >
           <img
-            src="sklogo.jpg"
+            src="/Srikrishnatraders/src/sklogo.jpg"
             alt="Sri Krishna Traders"
             className="h-14 w-auto"
           />
