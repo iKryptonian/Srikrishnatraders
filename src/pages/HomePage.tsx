@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, Gift, Phone, Calendar } from 'lucide-react';
 import { FireworksAnimation } from '../components/FireworksAnimation';
+import myImages from './../../assets/images/WS2k.gif'
 
 export const HomePage: React.FC = () => {
   return (
@@ -11,13 +12,13 @@ export const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
         <img
-          src="/assets/WS2K.gif"
+          src={myImages}
           alt=""
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500/80 to-blue-500/80 flex items-center justify-center p-4">
-          <img src="/assets/WS2k.gif" alt="Left Image" className="absolute left-0 p-2 w-18 h-18 hidden sm:block"/>
-          <img src="/assets/WS2k.gif" alt="Right Image" className="absolute right-0 p-2 w-18 h-18 hidden sm:block"/>
+          <img src={myImages} alt="Left Image" className="absolute left-0 p-2 w-18 h-18 hidden sm:block"/>
+          <img src={myImages} alt="Right Image" className="absolute right-0 p-2 w-18 h-18 hidden sm:block"/>
 
           <div className="text-center text-white space-y-4 md:space-y-6">
             <h1 className="text-3xl md:text-5xl font-bold">Welcome to Sri Krishna Traders</h1>
