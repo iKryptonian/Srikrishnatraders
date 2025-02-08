@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { Sparkles, Menu, X } from 'lucide-react';
 import { CartButton } from './CartButton';
 import type { CartItem } from '../types/CartItem';
-import myImages from './../../public/images/sklogo.jpg';
 
 interface HeaderProps {
   cart: CartItem[];
@@ -32,7 +31,7 @@ export const Header: React.FC<HeaderProps> = ({ cart }) => {
           className="flex items-center space-x-2 text-white hover:text-yellow-200"
         >
           <img
-            src={myImages}
+            src="/images/sklogo.jpg"
             alt="Sri Krishna Traders"
             className="h-14 w-auto"
           />
