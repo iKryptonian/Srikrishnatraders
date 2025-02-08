@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, Gift, Phone, Calendar } from 'lucide-react';
 import { FireworksAnimation } from '../components/FireworksAnimation';
-import myImages from './../../assets/images/WS2k.gif'
+import myImages from './../../public/images/WS2k.gif';
 
 export const HomePage: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ export const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
         <img
-          src={myImages}
+          src=" "
           alt=""
           className="w-full h-full object-cover"
         />

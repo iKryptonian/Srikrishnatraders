@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Sparkles, Menu, X } from 'lucide-react';
 import { CartButton } from './CartButton';
 import type { CartItem } from '../types/CartItem';
-import myImages from './../../assets/images/sklogo.jpg';
+import myImages from './../../public/images/sklogo.jpg';
 
 interface HeaderProps {
   cart: CartItem[];
