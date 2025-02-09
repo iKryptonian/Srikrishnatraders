@@ -11,9 +11,9 @@ if (!rootElement) throw new Error('Failed to find the root element');
 Modal.setAppElement(rootElement);
 
 createRoot(rootElement).render(
-  <StrictMode>
-    <HashRouter>
+  
+  <HashRouter>
       <App />
-    </HashRouter>
-  </StrictMode>
+  </HashRouter>
+  //</StrictMode>
 );
